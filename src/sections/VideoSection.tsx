@@ -1,10 +1,13 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Youtube } from 'lucide-react';
+import { Youtube, Linkedin } from 'lucide-react';
 import SectionHeading from '../components/SectionHeading';
-import { youtubeVideos } from '../data/videos';
+import { allVideos } from '../data/videos';
 
 const VideoCard: React.FC<{ video: any; index: number }> = ({ video, index }) => {
+  const IconComponent = video.platform === 'youtube' ? Youtube : Linkedin;
+  const iconColor = video.platform === 'youtube' ? 'text-red-500' : 'text-blue-500';
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 50 }}
@@ -24,9 +27,9 @@ const VideoCard: React.FC<{ video: any; index: number }> = ({ video, index }) =>
       </div>
       <div className="p-6">
         <div className="flex items-center gap-2 mb-4">
-          <Youtube className="text-red-500" size={20} />
+          <IconComponent className={iconColor} size={20} />
           <span className="text-sm font-medium text-gray-400">
-            YouTube
+            {video.platform === 'youtube' ? 'YouTube' : 'LinkedIn'}
           </span>
         </div>
         <h3 className="text-xl font-bold text-white mb-2">{video.title}</h3>
@@ -46,7 +49,7 @@ const VideoSection: React.FC = () => {
         />
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {youtubeVideos.map((video, index) => (
+          {allVideos.map((video, index) => (
             <VideoCard key={video.id} video={video} index={index} />
           ))}
         </div>

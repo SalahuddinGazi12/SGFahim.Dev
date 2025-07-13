@@ -2,6 +2,15 @@ import { ExperienceItem, EducationItem } from '../types';
 
 export const workExperience: ExperienceItem[] = [
   {
+    id: '5',
+    role: 'Unity Game Developer',
+    company: 'BulipeTech',
+    description: 'Making Hyper Casual and Arcade Game. Research With AI Generated 2D Based Game.',
+    startDate: 'Mar 2025',
+    endDate: 'Present',
+    current: true
+  },
+  {
     id: '1',
     role: 'Unity Game Developer',
     company: 'Khalifa Software And Technologies',

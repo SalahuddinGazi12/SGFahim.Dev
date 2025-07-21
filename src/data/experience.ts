@@ -6,7 +6,7 @@ export const workExperience: ExperienceItem[] = [
     role: 'Unity Game Developer',
     company: 'BulipeTech',
     description: 'Making Hyper Casual and Arcade Game. Research With AI Generated 2D Based Game.',
-    startDate: 'Mar 2025',
+    startDate: 'April 2025',
     endDate: 'Present',
     current: true
   },

@@ -45,8 +45,8 @@ export const allVideos: Video[] = [
   },
   {
     id: '7',
-    title: 'Development Progress Update',
-    description: 'Latest updates on my game development projects and milestones.',
+    title: 'Game Development Showcase',
+    description: 'Showcasing my game development work and achievements.',
     embedUrl: 'https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7116734131471884289?compact=1',
     platform: 'linkedin',
   }

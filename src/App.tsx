@@ -7,7 +7,6 @@ import Footer from './components/Footer';
 // Sections
 import HeroSection from './sections/HeroSection';
 import AboutSection from './sections/AboutSection';
-import ProjectsSection from './sections/ProjectsSection';
 import ExperienceSection from './sections/ExperienceSection';
 import SkillsSection from './sections/SkillsSection';
 import VideoSection from './sections/VideoSection';
@@ -36,7 +35,6 @@ function App() {
       <main>
         <HeroSection />
         <AboutSection />
-        <ProjectsSection />
         <VideoSection />
         <ExperienceSection />
         <SkillsSection />

@@ -5,10 +5,10 @@ import Button from '../components/Button';
 import ParticleBackground from '../components/particles/ParticleBackground';
 
 const HeroSection: React.FC = () => {
-  const scrollToProjects = () => {
-    const projectsSection = document.getElementById('projects');
-    if (projectsSection) {
-      projectsSection.scrollIntoView({ behavior: 'smooth' });
+  const scrollToVideos = () => {
+    const videosSection = document.getElementById('videos');
+    if (videosSection) {
+      videosSection.scrollIntoView({ behavior: 'smooth' });
     }
   };
 
@@ -78,7 +78,7 @@ const HeroSection: React.FC = () => {
             <Button 
               variant="primary" 
               size="lg"
-              onClick={scrollToProjects}
+              onClick={scrollToVideos}
             >
               View My Work
             </Button>
@@ -109,7 +109,7 @@ const HeroSection: React.FC = () => {
           animate={{ y: [0, 10, 0] }}
           transition={{ repeat: Infinity, duration: 2 }}
         >
-          <ArrowDown className="text-gray-400 cursor-pointer" onClick={scrollToProjects} />
+          <ArrowDown className="text-gray-400 cursor-pointer" onClick={scrollToVideos} />
         </motion.div>
       </motion.div>
     </section>

@@ -5,7 +5,6 @@ import { motion } from 'framer-motion';
 const navLinks = [
   { id: 'hero', label: 'Home' },
   { id: 'about', label: 'About' },
-  { id: 'projects', label: 'Projects' },
   { id: 'videos', label: 'Videos' },
   { id: 'experience', label: 'Experience' },
   { id: 'skills', label: 'Skills' },

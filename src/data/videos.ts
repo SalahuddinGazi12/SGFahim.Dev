@@ -1,3 +1,5 @@
+import { Video } from '../types';
+
 export const allVideos: Video[] = [
   {
     id: '1',
@@ -32,6 +34,20 @@ export const allVideos: Video[] = [
     title: 'Project Update',
     description: 'my  game development project.',
     embedUrl: 'https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7145815753970098176?compact=1',
+    platform: 'linkedin',
+  },
+  {
+    id: '6',
+    title: 'Game Development Showcase',
+    description: 'Showcasing my game development work and achievements.',
+    embedUrl: 'https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6954315120994893824?compact=1',
+    platform: 'linkedin',
+  },
+  {
+    id: '7',
+    title: 'Development Progress Update',
+    description: 'Latest updates on my game development projects and milestones.',
+    embedUrl: 'https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7116734131471884289?compact=1',
     platform: 'linkedin',
   }
 ];

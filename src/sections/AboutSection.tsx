@@ -33,7 +33,7 @@ const AboutSection: React.FC = () => {
             transition={{ duration: 0.8 }}
           >
             <h3 className="text-2xl font-bold text-white mb-6">
-              Passionate Game Developer with 7+ Years of Experience
+              Passionate Game Developer with 4+ Years of Experience
             </h3>
             <div className="space-y-4 text-gray-300">
               <p>

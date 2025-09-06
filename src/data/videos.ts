@@ -53,7 +53,7 @@ export const allVideos: Video[] = [
   {
     id: '8',
     title: 'Game Development Update',
-    description: 'Latest updates on my game development projects and achievements.',
+    description: 'Testing Teeth tracking project',
     embedUrl: 'https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7038877112727965696?compact=1',
     platform: 'linkedin',
   }

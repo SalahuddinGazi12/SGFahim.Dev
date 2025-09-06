@@ -52,9 +52,9 @@ export const allVideos: Video[] = [
   },
   {
     id: '8',
-    title: 'Development Progress',
+    title: 'Game Development Update',
     description: 'Latest updates on my game development projects and achievements.',
-    embedUrl: '<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7038877112727965696?compact=1" height="399" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>,
+    embedUrl: 'https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7038877112727965696?compact=1',
     platform: 'linkedin',
   }
 ];

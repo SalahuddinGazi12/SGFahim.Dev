@@ -13,7 +13,7 @@ export const workExperience: ExperienceItem[] = [
   {
     id: '5',
     role: 'Unity Game Developer',
-    company: 'Agni SYstem',
+    company: 'Agni System',
     description: 'Making Pc Base Game.',
     startDate: 'March 2025',
     endDate: 'August 2025',

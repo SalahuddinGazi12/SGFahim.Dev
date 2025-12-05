@@ -1,13 +1,22 @@
 import { ExperienceItem, EducationItem } from '../types';
 
 export const workExperience: ExperienceItem[] = [
+    {
+    id: '6',
+    role: 'Unity Game Developer',
+    company: 'SM Technology',
+    description: 'Successfully handled multiple clients, managed communication, and guided them toward accepting project proposals.Ensured deliveries were completed before the deadline with consistent quality. Led and coordinated a full cross-functional team including developers, UI designers, 3D artists, and 2D artists.Delivered 4+ full projects, including board games, simulation games, MMORPG-style systems, and casual games.',
+    startDate: 'October 2025',
+    endDate: 'Present',
+    current: true
+  },
   {
     id: '5',
     role: 'Unity Game Developer',
-    company: 'BulipeTech',
-    description: 'Making Hyper Casual and Arcade Game. Research With AI Generated 2D Based Game.',
-    startDate: 'April 2025',
-    endDate: 'Present',
+    company: 'Agni SYstem',
+    description: 'Making Pc Base Game.',
+    startDate: 'March 2025',
+    endDate: 'August 2025',
     current: true
   },
   {

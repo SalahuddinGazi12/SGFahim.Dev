@@ -17,7 +17,7 @@ export const workExperience: ExperienceItem[] = [
     description: 'Making Pc Base Game.',
     startDate: 'March 2025',
     endDate: 'August 2025',
-    current: true
+    current: false
   },
   {
     id: '1',

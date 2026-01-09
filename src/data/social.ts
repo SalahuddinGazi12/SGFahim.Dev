@@ -9,6 +9,12 @@ export const socialLinks: SocialLink[] = [
   },
   {
     id: '2',
+    platform: 'GitHub',
+    url: 'https://github.com/GaziFahimsmt',
+    icon: 'Github'
+  },
+  {
+    id: '3',
     platform: 'LinkedIn',
     url: 'https://www.linkedin.com/in/salahuddin-gazi-fahim-51218018a/',
     icon: 'Linkedin'

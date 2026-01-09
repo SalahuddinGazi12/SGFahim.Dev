@@ -5,7 +5,7 @@ export const workExperience: ExperienceItem[] = [
     id: '6',
     role: 'Unity Game Developer',
     company: 'SM Technology',
-    description: 'Successfully handled multiple clients, managed communication, and guided them toward accepting project proposals.Ensured deliveries were completed before the deadline with consistent quality. Led and coordinated a full cross-functional team including developers, UI designers, 3D artists, and 2D artists.Delivered 4+ full projects, including board games, simulation games, MMORPG-style systems, and casual games.',
+    description: 'Successfully handled multiple clients, managed communication, and guided them toward accepting project proposals.Ensured deliveries were completed before the deadline with consistent quality. Led and coordinated a full cross-functional team including developers, UI designers, 3D artists, and 2D artists.Developed 6+ full projects, including board games, simulation games, MMORPG-style systems, and casual games.',
     startDate: 'October 2025',
     endDate: 'Present',
     current: true

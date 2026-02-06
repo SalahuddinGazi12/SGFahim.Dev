@@ -13,10 +13,10 @@ export const workExperience: ExperienceItem[] = [
   {
     id: '5',
     role: 'Unity Game Developer',
-    company: 'Agni System',
-    description: 'Making Pc Base Game.',
-    startDate: 'March 2025',
-    endDate: 'August 2025',
+    company: 'BulipeTech',
+    description: 'Various type Hyper casual and Ai based Game.',
+    startDate: 'April 2025',
+    endDate: 'September 2025',
     current: false
   },
   {

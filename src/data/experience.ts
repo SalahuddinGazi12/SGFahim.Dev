@@ -5,7 +5,7 @@ export const workExperience: ExperienceItem[] = [
     id: '6',
     role: 'Unity Game Developer',
     company: 'SM Technology',
-    description: 'Successfully handled multiple clients, managed communication, and guided them toward accepting project proposals.Ensured deliveries were completed before the deadline with consistent quality. Led and coordinated a full cross-functional team including developers, UI designers, 3D artists, and 2D artists.Developed 6+ full projects, including board games, simulation games, MMORPG-style systems, and casual games.',
+    description: 'Led a game development team of 15+ members including UI designers, 2D artists, 3D artists, and mid/junior Unity developersSuccessfully delivered 10+ game projects across multiple platformsMaintained consistent 5-star client ratings, including multiple top reviews on FiverrManaged full project pipelines: concept, design, development, testing, and final deliveryCoordinated team tasks, timelines, and quality control to ensure on-time deliveryExperienced in developing simulation, puzzle, MMORPG, board, and hyper-casual gamesHandled both client projects and in-house game productions',
     startDate: 'October 2025',
     endDate: 'Present',
     current: true

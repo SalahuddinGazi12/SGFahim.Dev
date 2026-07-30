@@ -5,7 +5,7 @@ export const workExperience: ExperienceItem[] = [
     id: '6',
     role: 'Unity Game Developer',
     company: 'SM Technology',
-    description: 'Successfully delivered 40+ game projects across multiple platforms Maintained consistent 5-star client ratings including multiple top reviews on Fiverr Managed full project pipelines: concept, design, development, testing, and final deliveryCoordinated team tasks, timelines, and quality control to ensure on-time deliveryExperienced in developing simulation, puzzle, MMORPG, board, and hyper-casual gamesHandled both client projects and in-house game productions',
+    description: 'Successfully delivered 100+ game projects across multiple platforms Maintained consistent 5-star client ratings including multiple top reviews on Fiverr Managed full project pipelines: concept, design, development, testing, and final deliveryCoordinated team tasks, timelines, and quality control to ensure on-time deliveryExperienced in developing simulation, puzzle, MMORPG, board, and hyper-casual gamesHandled both client projects and in-house game productions',
     startDate: 'October 2025',
     endDate: 'Present',
     current: true

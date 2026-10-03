@@ -9,6 +9,7 @@ const projects = [
     embedUrl:'https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7423435851264729088?compact=1',
     platform:'linkedin',
   },
+  ]
 ];
 
 // Filter videos by platform

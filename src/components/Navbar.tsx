@@ -6,6 +6,7 @@ const navLinks = [
   { id: 'hero', label: 'Home' },
   { id: 'about', label: 'About' },
   { id: 'videos', label: 'Videos' },
+  { id: 'published', label: 'Published' },
   { id: 'play', label: 'Play' },
   { id: 'experience', label: 'Experience' },
   { id: 'skills', label: 'Skills' },
@@ -66,7 +67,7 @@ const Navbar: React.FC = () => {
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="hidden md:flex space-x-8"
+            className="hidden md:flex space-x-5 lg:space-x-8"
           >
             {navLinks.map((link) => (
               <button

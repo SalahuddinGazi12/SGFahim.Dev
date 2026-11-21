@@ -59,6 +59,21 @@ export interface PlayableGame {
   orientation: 'landscape' | 'portrait';
 }
 
+// Published (store-released) game types
+export interface PublishedGame {
+  id: string;
+  title: string;
+  tagline: string;
+  description: string;
+  highlights: string[];
+  roles: string[];
+  meta: { label: string; value: string }[];
+  iconUrl: string;
+  screenshots: string[];
+  playStoreUrl: string;
+  appStoreUrl?: string;
+}
+
 // Video types
 export interface Video {
   id: string;

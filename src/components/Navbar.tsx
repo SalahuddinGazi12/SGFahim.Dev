@@ -6,6 +6,7 @@ const navLinks = [
   { id: 'hero', label: 'Home' },
   { id: 'about', label: 'About' },
   { id: 'videos', label: 'Videos' },
+  { id: 'play', label: 'Play' },
   { id: 'experience', label: 'Experience' },
   { id: 'skills', label: 'Skills' },
   { id: 'contact', label: 'Contact' },

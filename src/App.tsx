@@ -10,6 +10,7 @@ import AboutSection from './sections/AboutSection';
 import ExperienceSection from './sections/ExperienceSection';
 import SkillsSection from './sections/SkillsSection';
 import VideoSection from './sections/VideoSection';
+import PlayableGamesSection from './sections/PlayableGamesSection';
 import ContactSection from './sections/ContactSection';
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
         <HeroSection />
         <AboutSection />
         <VideoSection />
+        <PlayableGamesSection />
         <ExperienceSection />
         <SkillsSection />
         <ContactSection />

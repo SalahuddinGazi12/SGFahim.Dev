@@ -48,6 +48,17 @@ export interface SocialLink {
   icon: string;
 }
 
+// Playable WebGL / browser game types
+export interface PlayableGame {
+  id: string;
+  title: string;
+  tagline: string;
+  description: string;
+  playUrl: string;
+  tags: string[];
+  orientation: 'landscape' | 'portrait';
+}
+
 // Video types
 export interface Video {
   id: string;
